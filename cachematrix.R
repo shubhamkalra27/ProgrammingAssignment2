@@ -2,13 +2,8 @@ install.packages("MASS")
 library(MASS)
 ## installing package MASS which includes the inverse function
 
-## Put comments here that give an overall description of what your
-## functions do
 
-## Write a short comment describing this function
-
-
-## First function, makrCacheMatrix functions takes a matrix input, and returns a list with set, get and setInv and getInv functions
+## First function, makeCacheMatrix functions takes a matrix input, and returns a list with set, get and setInv and getInv functions
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
